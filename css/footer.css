@@ -1,0 +1,12 @@
+/* footer stylings */
+
+#footer {
+	font-family: Tahoma, Arial, Sans-serif;
+	font-size: 1.3em;
+	clear: both;
+	margin: 1.5em 0 0.5em 0;
+	line-height: 1.5;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	border-top: solid 2px #985;
+}

@@ -1,0 +1,25 @@
+/* header stylings */
+
+#header {
+	padding: 0.5em 0 0.5em 0;
+	margin: 0.5em 0 1.5em 0;
+	border-top: solid 2px #985;
+	border-bottom: solid 2px #985;
+}
+
+#header a {
+	text-decoration: none;
+	color: #a22;
+}
+
+#header h1 {
+	margin: 0;
+	font-size: 3.5em;
+	font-family: Tahoma, 'Gill Sans MT', Sans-Serif;
+}
+
+.description {
+	font-size: 2.0em;
+	font-family: Tahoma, 'Gill Sans MT', Sans-Serif;
+     color: #a22;
+}

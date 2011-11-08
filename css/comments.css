@@ -1,0 +1,70 @@
+/* comments stylings */
+/* padding needs to be fixed */
+
+#comments {
+	margin: 15px auto 0 auto;
+	padding: 0 40px 0 40px;
+}
+
+#comments h2 {
+	font-size: 1.8em;
+	color: #258;
+}
+
+#comments p {
+	padding: 1em 0 0 0;
+	margin: 0;
+	font-size: 1.2em;
+}
+
+.comment {
+	padding: 0 10px 10px 10px;
+	font-size: 1.2em;
+}
+
+.comments-list {
+	padding: 5px 15px 0 15px;
+}
+
+.comment-author {
+	background-color: #ede;
+	padding: 0 1em 1em 1em;
+}
+
+.comment-normal {
+	background-color: #feb;
+	padding: 0 1em 1em 1em;
+}
+
+.comment-text {
+	margin-left: 1em;
+	font-size: 1em;
+}
+
+.comment-meta {
+	margin: 3px 0 10px 0;
+	font-size: 1.2em;
+}
+
+.comments-form {
+	margin-top: 20px;
+}
+
+input, textarea {
+	padding: 2px;
+}
+
+input.field {
+	border: solid 1px #333;
+	width: 300px;
+	margin-right: 3px;
+}
+
+textarea.comment-box {
+	border: solid 1px #333;
+	width: 80%;
+	height: 200px;
+}
+
+input.button {
+}

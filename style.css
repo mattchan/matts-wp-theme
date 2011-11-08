@@ -1,0 +1,201 @@
+/*
+Theme Name: Matt
+Description: My own personal WordPress Theme
+Version: 0.1
+Author: Matt Chan
+Author URI: http://mattchan.net/
+*/
+
+@import url('css/header.css');
+@import url('css/footer.css');
+@import url('css/sidebar.css');
+@import url('css/comments.css');
+
+/********************************************
+ * General stylings
+ ********************************************/
+
+#wrap {
+	width: 800px;
+	margin: 0 auto 0 auto;
+	background-color: #fff;
+	font-family: Georgia, 'Trebuchet MS', Arial, Tahoma, Sans-Serif;
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+}
+
+a img {
+	border: none;
+}
+
+/* I still need to fix this */
+
+hr {
+	border: none 0;
+	border-top: 1px dashed #255;
+	width: 80%;
+	margin: 0 auto 1em auto;
+	height: 1px;
+}
+
+p {
+	margin: 1em 0 0 0;
+}
+
+/********************************************
+ * Archives
+ ********************************************/
+
+.postspermonth {
+	padding-left: 1.5em;
+	padding-bottom: 1em;
+	list-style: none;
+}
+
+.arc-month {
+	font-size: 1.1em;
+}
+
+.the-tags, .arc-month {
+	padding-left: 20px;
+}
+
+.the-cats {
+	padding-left: 35px;
+}
+
+.browse, .search-title {
+	padding-bottom: 10px;
+	font-size: 1.3em;
+}
+
+.arc-search, .tags, .cats {
+	padding-bottom: 20px;
+}
+
+.search-title {
+	padding-top: 10px;
+}
+
+#clear-mid {
+	height: 1px;
+	clear: both;
+}
+
+
+/********************************************
+ * Links
+ ********************************************/
+
+a {
+	color: #258;
+	text-decoration: none;
+}
+
+a:visited { color: #747; }
+a:hover   { color: #aaf; }
+
+.post-content a {
+	text-decoration: underline;
+}
+
+a.nohover:hover {
+	border: none;
+}
+
+/********************************************
+ * Navigation
+ ********************************************/
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+#topnav {
+	font-size: 1.4em;
+	height: 20px;
+}
+
+#bottomnav {
+	font-size: 1.4em;
+	padding-top: 5px;
+	height: 15px;
+}
+
+/********************************************
+ * Main Content Wrapper
+ ********************************************/
+
+#center {
+	text-align: justify;
+}
+
+
+/********************************************
+ * Content
+ ********************************************/
+
+#content {
+	float: right;
+	padding-bottom: 10px;
+	width: 74%;
+}
+
+#content h2 {
+	font-size: 2.5em;
+	margin-bottom: 3px;
+}
+
+#content ul, #content ol {
+	list-style-position: inside
+}
+
+#content li {
+	margin-left: 2em;
+}
+
+.post {
+	margin: 0 auto 0 auto;
+	padding: 0 0 10px 0;
+}
+
+.post-content {
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.post-info, .post-end {
+	font-size: 1.2em;
+}
+
+/********************************************
+ * Single posts stuff
+ ********************************************/
+
+#single {
+}
+
+#single h2 {
+	font-size: 2.5em;
+	margin-bottom: 3px;
+}
+
+/********************************************
+ * Flickr
+ ********************************************/
+
+.flickr-picture {
+	border: 2px solid #333;
+}

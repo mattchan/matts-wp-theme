@@ -1,0 +1,33 @@
+/* sidebar stylings */
+
+.sidebox h2 {
+	font-weight: bold;
+	font-size: 1em;
+	color: #FFF6DD;
+	margin-bottom: 0.5em;
+	background-color: #847FBB;
+	padding: 0 5px 0 5px;
+	border-bottom: 1px solid #847FA5;
+}
+
+#sidebar {
+	float: left;
+	width: 24%;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+#sidebar ul {
+	padding-right: 1em;
+	list-style-type: none;
+}
+
+#sidebar > ul > li {
+	padding-bottom: 1em;
+}
+
+#sidebar ul ul {
+	list-style-position: inside;
+	font-size: 0.9em;
+	padding-left: 1em;
+}
